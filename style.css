@@ -2,6 +2,7 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+
 body {
   max-width: 800px;
   margin: 0 auto;
@@ -10,10 +11,12 @@ body {
   color: #333;
   line-height: 1.6;
 }
+
 h1 {
   text-align: center;
   color: #2c3e50;
 }
+
 .container {
   background: white;
   padding: 20px;
@@ -21,6 +24,7 @@ h1 {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
+
 button {
   background-color: #3498db;
   color: white;
@@ -32,13 +36,16 @@ button {
   width: 100%;
   margin: 10px 0;
 }
+
 button:hover {
   background-color: #2980b9;
 }
+
 #reader {
   width: 100%;
   margin: 20px 0;
 }
+
 #result {
   margin: 20px 0;
   padding: 15px;
@@ -46,43 +53,28 @@ button:hover {
   border-radius: 4px;
   background-color: #f9f9f9;
 }
+
 .hidden {
   display: none;
 }
-#scannedNetworks {
-  margin-top: 20px;
-}
-.network-item {
-  padding: 10px;
-  border-bottom: 1px solid #eee;
-  display: flex;
-  justify-content: space-between;
-}
-.network-item:last-child {
-  border-bottom: none;
-}
+
 .credentials {
   font-family: monospace;
 }
+
 .ssid {
   font-weight: bold;
 }
+
 .password {
   color: #27ae60;
 }
-.delete-btn {
-  background-color: #e74c3c;
-  padding: 2px 8px;
-  font-size: 12px;
-  width: auto;
-}
-.delete-btn:hover {
-  background-color: #c0392b;
-}
+
 @media (max-width: 600px) {
   body {
     padding: 10px;
   }
+
   .container {
     padding: 15px;
   }
